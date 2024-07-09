@@ -58,8 +58,8 @@
 .Texte h1{
     color: #204b9b;
     font-size: 78px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 80px;
     top: 221px;
     left: 63px;
     margin-bottom: 31px;
@@ -73,7 +73,7 @@
     left: 67px;
 }
 
-.Texte a{
+.boutton2{
     width: 218px;
     height: 63px;
     background-color: #f6a317;
@@ -98,6 +98,10 @@
 }
 
 .menu-burger{
+    display: none;
+}
+
+.mobile{
     display: none;
 }
 
@@ -126,8 +130,9 @@
 
     .logo1{
         position: absolute;
-        left: 50%;
+        left: 55%;
         display: flex;
+        height: 50%;
     }
 
     .section-1{
@@ -141,6 +146,7 @@
 
     .Texte{
         width: 100%;
+        height: 0%;
     }
     .ligne1{
         flex-direction: column;
@@ -174,7 +180,39 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+        padding-top: 300px;
     }
+    
+    .section-1 .ligne1 .image{
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    
+    .section-1 .ligne1 .image img{
+        width: 100%;
+        padding-top:0%;
+        right:30%;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+    }
+
+    .image img{
+
+    }
+
+
 
 
 
