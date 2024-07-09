@@ -135,6 +135,7 @@
         padding-top: 250px;
         align-items: center;
         display: flex;
+        padding-top: 145px;
        
     }
 
@@ -157,7 +158,23 @@
 
     }
 
-    .m
+    .Marge{
+        padding: 0px 30px;
+    }
+
+    .section-1 .ligne1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section-1 .ligne1 .Texte{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
 
 
 
@@ -169,4 +186,4 @@
 
 
 
-/* Fin de respon
+/* Fin de responsivité */
