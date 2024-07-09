@@ -1,0 +1,172 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: poppins, sans-serif;
+}
+
+.Marge {
+    padding: 0% 67px;
+}
+
+.barre-menu{
+    display: flex;
+    height: 97px;
+    background-color: #ffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.252);
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    z-index: 999999;
+}
+.Block-liens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+}
+
+.les-liens {
+    text-decoration: none;
+    color: #204b9b;
+    font-size: 22px;
+    font-weight: 300; }
+
+.boutton {
+    width: 171px;
+    height: 49px;
+    background-color: #f6a317;
+    border-radius: 30px;
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.section-1 {
+    display: flex;
+    height: 727px;
+    align-items: center;
+    padding-top: 165px;
+     }
+
+.Texte h1{
+    color: #204b9b;
+    font-size: 78px;
+    font-weight: 700;
+    line-height: 80px;
+    top: 221px;
+    left: 63px;
+    margin-bottom: 31px;
+}
+
+.Texte p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 45px;
+    top: 384px;
+    left: 67px;
+}
+
+.Texte a{
+    width: 218px;
+    height: 63px;
+    background-color: #f6a317;
+    border-radius: 30px;
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ligne1{
+    display: flex;
+}
+
+.Texte{
+    width: 598.78px;
+    height: 406px;
+}
+
+.menu-burger{
+    display: none;
+}
+
+
+/* Début de responsivité */
+@media screen and (max-width: 426px) {
+    .Block-liens{
+        display: none;
+    }
+
+    .boutton{
+        display: none;
+    }
+
+    .menu-burger{
+        display: contents;
+        font-size: 2em;
+        color: #204B9B;
+    }
+
+    .barre-menu{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .logo1{
+        position: absolute;
+        left: 50%;
+        display: flex;
+    }
+
+    .section-1{
+        width: 100%;
+        padding-top: 250px;
+        align-items: center;
+        display: flex;
+       
+    }
+
+    .Texte{
+        width: 100%;
+    }
+    .ligne1{
+        flex-direction: column;
+    }
+
+    .Texte h1{
+        text-align: center;
+         font-size: 2.2em;
+    }
+
+    .Texte p {
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+
+    }
+
+    .m
+
+
+
+
+
+
+    
+}
+
+
+
+/* Fin de respon
